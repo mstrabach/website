@@ -1,0 +1,14 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+Noindex: /restellini.html
+Noindex: /ewattch.html
+Noindex: /mrcds.html
+Noindex: /seize.html
+Noindex: /responsage.html
+Noindex: /ewattch.html
+Noindex: /cargo.html
+Noindex: /runmotion.html
+
