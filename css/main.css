@@ -32,7 +32,7 @@
 
 :root {
     --blue:#282cca;
-    --jaune:#ffea7f;
+    --jaune:#fff;
     --clair:#E8EEEE;
     --vert:#37C19B;
 }
@@ -141,7 +141,7 @@ textarea {
 
 .main {
     padding: 60vh 0 0 0;
-    background-color: #ffea7f;
+    background-color: #fff;
     overflow: hidden;
 }
 
@@ -150,7 +150,7 @@ textarea {
     z-index: 11;
     top: 0;
     right: 0;
-    background: #ffea7f54;
+    background: #fff54;
     width: 100%;
     text-align: right;
     border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -413,7 +413,7 @@ h2 {
 .cards {
     position: relative;
     z-index: 3;
-    background: #ffea7ff2;
+    background: #ffff2;
     padding-bottom: 5em;
     margin-top: 10em;
 }
@@ -425,7 +425,7 @@ h2 {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 25em;
-    background-color: #ffea7f;
+    background-color: #fff;
     background-image: url('../img/bg.svg');
     position: relative;
     width: 100%;
@@ -638,7 +638,7 @@ h2 {
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    background: #ffea7f;
+    background: #fff;
 }
 
 .jobs h2 {
@@ -670,7 +670,7 @@ h2 {
     display: inline-block;
     vertical-align: top;
     padding: 3em;
-    background: #ffea7f;
+    background: #fff;
     overflow: hidden;
     margin-bottom: 0.25em;
 }
