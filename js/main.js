@@ -13,6 +13,8 @@ $(function() {
 
 
 $( "#openSeize" ).on( "click touchend", function() {
+	$(".project-details").attr('class','project-details');
+	$(".project-details").html('')
 	$(".project-details").addClass("seize opened");
 	$(".project-details").load("seize.html");
 	window.history.pushState("Seize", "Seize", "/website/seize");
@@ -20,6 +22,8 @@ $( "#openSeize" ).on( "click touchend", function() {
 });
 
 $( "#openRun" ).on( "click touchend", function() {
+	$(".project-details").attr('class','project-details');
+	$(".project-details").html('');
 	$(".project-details").addClass("runmotion opened");
 	$(".project-details").load("runmotion.html");
 	window.history.pushState("Run Motion", "Run Motion", "/website/runmotion");
@@ -27,6 +31,8 @@ $( "#openRun" ).on( "click touchend", function() {
 });
 
 $( "#openRes" ).on( "click touchend", function() {
+	$(".project-details").attr('class','project-details');
+	$(".project-details").html('');
 	$(".project-details").addClass("responsage opened");
 	$(".project-details").load("responsage.html");
 	window.history.pushState("Responsage", "Responsage", "/website/responsage");
@@ -34,6 +40,8 @@ $( "#openRes" ).on( "click touchend", function() {
 });
 
 $( "#openCargo" ).on( "click touchend", function() {
+	$(".project-details").attr('class','project-details');
+	$(".project-details").html('');
 	$(".project-details").addClass("cargo opened");
 	$(".project-details").load("cargo.html");
 	window.history.pushState("Cargo", "Cargo", "/website/cargo");
@@ -41,6 +49,8 @@ $( "#openCargo" ).on( "click touchend", function() {
 });
 
 $( "#openMRCDS" ).on( "click touchend", function() {
+	$(".project-details").removeClass(" ");
+	$(".project-details").html('');
 	$(".project-details").addClass("mrcds opened");
 	$(".project-details").load("mrcds.html");
 	window.history.pushState("Mon Réseau Cancer du Sein", "Mon Réseau Cancer du Sein", "/website/mon-reseau-cancer-du-sein");
@@ -48,6 +58,8 @@ $( "#openMRCDS" ).on( "click touchend", function() {
 });
 
 $( "#openEwattch" ).on( "click touchend", function() {
+	$(".project-details").attr('class','project-details');
+	$(".project-details").html('');
 	$(".project-details").addClass("ewattch opened");
 	$(".project-details").load("ewattch.html");
 	window.history.pushState("Ewattch", "Ewattch", "/website/ewattch");
@@ -55,6 +67,8 @@ $( "#openEwattch" ).on( "click touchend", function() {
 });
 
 $( "#openRestellini" ).on( "click touchend", function() {
+	$(".project-details").attr('class','project-details');
+	$(".project-details").html('');
 	$(".project-details").addClass("restellini opened");
 	$(".project-details").load("restellini.html");
 	window.history.pushState("Restellini", "Restellini", "/website/restellini");
