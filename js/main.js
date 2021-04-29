@@ -25,7 +25,7 @@ $( "#openSeize" ).on( "click touchend", function() {
 $( "#openRun" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("runmotion opened");
-	$(".project-details").load("runmotion.html");
+	$(".project-details").load(websiteRoot"runmotion.html");
 	window.history.pushState("Run Motion", "Run Motion", "/website/runmotion");
 	$(".close").slideDown();
 });
@@ -33,7 +33,7 @@ $( "#openRun" ).on( "click touchend", function() {
 $( "#openRes" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("responsage opened");
-	$(".project-details").load("responsage.html");
+	$(".project-details").load(websiteRoot"responsage.html");
 	window.history.pushState("Responsage", "Responsage", "/website/responsage");
 	$(".close").slideDown();
 });
@@ -41,7 +41,7 @@ $( "#openRes" ).on( "click touchend", function() {
 $( "#openCargo" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("cargo opened");
-	$(".project-details").load("cargo.html");
+	$(".project-details").load(websiteRoot"cargo.html");
 	window.history.pushState("Cargo", "Cargo", "/website/cargo");
 	$(".close").slideDown();
 });
@@ -49,7 +49,7 @@ $( "#openCargo" ).on( "click touchend", function() {
 $( "#openMRCDS" ).on( "click touchend", function() {
 	$(".project-details").removeClass(" ");
 	$(".project-details").addClass("mrcds opened");
-	$(".project-details").load("mrcds.html");
+	$(".project-details").load(websiteRoot"mrcds.html");
 	window.history.pushState("Mon Réseau Cancer du Sein", "Mon Réseau Cancer du Sein", "/website/mon-reseau-cancer-du-sein");
 	$(".close").slideDown();
 });
@@ -57,7 +57,7 @@ $( "#openMRCDS" ).on( "click touchend", function() {
 $( "#openEwattch" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("ewattch opened");
-	$(".project-details").load("ewattch.html");
+	$(".project-details").load(websiteRoot"ewattch.html");
 	window.history.pushState("Ewattch", "Ewattch", "/website/ewattch");
 	$(".close").slideDown();
 });
@@ -65,7 +65,7 @@ $( "#openEwattch" ).on( "click touchend", function() {
 $( "#openRestellini" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("restellini opened");
-	$(".project-details").load("restellini.html");
+	$(".project-details").load(websiteRoot"restellini.html");
 	window.history.pushState("Restellini", "Restellini", "/website/restellini");
 	$(".close").slideDown();
 });
