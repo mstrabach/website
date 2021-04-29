@@ -1,14 +1,18 @@
-<script src="js/closing.js" />
+<script>
+  $( ".project-details .close" ).on( "click", function(event) {
+  $(".project-details").removeClass("opened");
+  event.stopPropagation();
+});
+</script>
 <div class="background">
   <button class="close">
-    <img src="img/left-arrow.svg" alt=""> Mathieu Strabach - UX/UI Designer Freelance à Chambéry <span>/ Institut Restellini</span>
+    <img src="img/left-arrow.svg" alt=""> Mathieu Strabach <span>/ Institut Restellini</span>
   </button>
   <div class="project-details__content">
     <p class="project-details__title">Institut Restellini</p>
-    <p class="project-details__description">PCréation entière du site Internet de l'Institut Restellini (du maquettage à l'intégration HTML/CSS), institut reconnu dans le monde entier pour son expertise artistique et ses catalogues raisonnés, notamment en ce qui concerne l'oeuvre d'Amedeo Modigliani. Le site n'est malheureusement plus en ligne. <br><br>
+    <p class="project-details__description">Création entière du site Internet de l'Institut Restellini (du maquettage à l'intégration HTML/CSS), institut reconnu dans le monde entier pour son expertise artistique et ses catalogues raisonnés, notamment en ce qui concerne l'oeuvre d'Amedeo Modigliani. Le site n'est malheureusement plus en ligne. <br><br>
     Une orientation très print, faisant la part belle à la typographie pour ce site web de 2014.</p>
     <ul>
-      <li><img src="img/Projets/Restellini/1.png" alt=""></li>
       <li><img src="img/Projets/Restellini/2.png" alt=""></li>
       <li><img src="img/Projets/Restellini/3.png" alt=""></li>
       <li><img src="img/Projets/Restellini/4.png" alt=""></li>
