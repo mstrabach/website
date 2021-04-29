@@ -17,7 +17,7 @@ websiteRoot = "https://mstrabach.github.io/website";
 $( "#openSeize" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("seize opened");
-	$(".project-details").load(websiteRoot"/seize.html");
+	$(".project-details").load(websiteRoot+"/seize.html");
 	window.history.pushState("Seize", "Seize", "/website/seize");
 	$(".close").slideDown();
 });
@@ -25,7 +25,7 @@ $( "#openSeize" ).on( "click touchend", function() {
 $( "#openRun" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("runmotion opened");
-	$(".project-details").load(websiteRoot"runmotion.html");
+	$(".project-details").load(websiteRoot+"runmotion.html");
 	window.history.pushState("Run Motion", "Run Motion", "/website/runmotion");
 	$(".close").slideDown();
 });
