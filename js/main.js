@@ -13,7 +13,7 @@ $(function() {
 
 
 window.addEventListener('popstate', function(event) {
-    history.pushState(null, null, "/");
+    history.pushState(null, null, "/website");
 	$(".project-details").removeClass("opened");
 }, false);
 
