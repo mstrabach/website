@@ -20,7 +20,7 @@ window.addEventListener('popstate', function(event) {
 $( "#openSeize" ).on( "click touchend", function() {
 	$(".project-details").addClass("seize opened");
 	$(".project-details").load("seize.html");
-	window.history.pushState("Seize", "Seize", "/website//seize");
+	window.history.pushState("Seize", "Seize", "/website/seize");
 });
 
 $( "#openRun" ).on( "click touchend", function() {
@@ -32,7 +32,7 @@ $( "#openRun" ).on( "click touchend", function() {
 $( "#openRes" ).on( "click touchend", function() {
 	$(".project-details").addClass("responsage opened");
 	$(".project-details").load("responsage.html");
-	window.history.pushState("Responsage", "Responsage", "/website//responsage");
+	window.history.pushState("Responsage", "Responsage", "/website/responsage");
 });
 
 $( "#openCargo" ).on( "click touchend", function() {
