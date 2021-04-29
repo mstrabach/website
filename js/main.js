@@ -12,11 +12,6 @@ $(function() {
 });
 
 
-window.addEventListener('popstate', function(event) {
-    history.pushState(null, null, "/website");
-	$(".project-details").removeClass("opened");
-}, false);
-
 $( "#openSeize" ).on( "click touchend", function() {
 	$(".project-details").addClass("seize opened");
 	$(".project-details").load("seize.html");
