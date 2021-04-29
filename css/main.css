@@ -301,7 +301,7 @@ textarea {
 
 .project-details__description {
     padding-bottom: 2em;
-    background: #020021;
+    background: var(--black);
     position: relative;
     z-index: 110;
     margin-bottom: 0;
@@ -328,7 +328,7 @@ textarea {
     text-align: center;
     vertical-align: top;
     padding-top: 2em;
-    background: #020021;
+    background: var(--black);
     position: relative;
     z-index: 110;
 }
