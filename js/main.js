@@ -11,11 +11,13 @@ $(function() {
 	});
 });
 
+var websiteRoot;
+websiteRoot = "https://mstrabach.github.io/website/"
 
 $( "#openSeize" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
 	$(".project-details").addClass("seize opened");
-	$(".project-details").load("seize.html");
+	$(".project-details").load(websiteRoot"/seize.html");
 	window.history.pushState("Seize", "Seize", "/website/seize");
 	$(".close").slideDown();
 });
