@@ -14,7 +14,7 @@ $(function() {
 
 $( "#openSeize" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
-	$(".project-details").html('')
+	$(".project-details").html('');
 	$(".project-details").addClass("seize opened");
 	$(".project-details").load("seize.html");
 	window.history.pushState("Seize", "Seize", "/website/seize");
