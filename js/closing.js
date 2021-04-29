@@ -1,4 +1,4 @@
-$( ".project-details .close" ).on( "click", function(event) {
+$( ".project-details .close" ).on( "click tap", function(event) {
 	history.pushState(null, null, "/website");
 	$(".project-details").attr('class','project-details closed');
 	$(".project-details").empty();
@@ -6,9 +6,9 @@ $( ".project-details .close" ).on( "click", function(event) {
 	event.stopPropagation();
 });
 
-// window.history.back( function(event) {
-//     history.pushState(null, null, "/website");
-// 	$(".project-details").attr('class','project-details closed');
-// 	$(".project-details").empty();
-// 	$(".close").slideUp();
-// }, false);
+window.history.back( function(event) {
+    history.pushState(null, null, "/website");
+	$(".project-details").attr('class','project-details closed');
+	$(".project-details").empty();
+	$(".close").slideUp();
+}, false);

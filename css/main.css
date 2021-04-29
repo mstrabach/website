@@ -1050,6 +1050,11 @@ h2 {
 
 @media only screen and (max-width: 1024px) {
 
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
     .mobilehidden {
         display: none;
     }
@@ -1162,6 +1167,10 @@ h2 {
         font-weight: 500;   
     }
 
+    .cards {
+        padding: 0;
+    }
+
     .cards__card {
         margin-bottom: 5em;
         padding-bottom: 0
@@ -1176,7 +1185,7 @@ h2 {
 
     .cards__card h4, .cards__card p, .cards__card p.white {
         font-size: 1em;
-        padding: 1em;
+        padding: 0;
     }
 
     .cards__card .picture {
@@ -1203,6 +1212,7 @@ h2 {
         box-shadow: 0 50px 100px 20px rgba(0,0,0,0.15);
         border-radius: 0;
         overflow: hidden;
+        padding: 2em;
     }
 
     .cards__card.portrait .picture img {
