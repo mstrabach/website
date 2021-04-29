@@ -12,7 +12,7 @@ $(function() {
 });
 
 var websiteRoot;
-websiteRoot = "https://mstrabach.github.io/website"
+websiteRoot = "https://mstrabach.github.io/website";
 
 $( "#openSeize" ).on( "click touchend", function() {
 	$(".project-details").attr('class','project-details');
